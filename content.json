@@ -1,0 +1,265 @@
+{
+  "_comment": "Add your own content here. Keep this as valid JSON: comments are stored in keys that begin with _comment because GitHub Pages serves plain JSON.",
+  "site": {
+    "_comment": "Browser title and search description. Leave blank until you are ready to publish real content.",
+    "title": "Abhishek Karve",
+    "description": "Abhishek Karve's personal website."
+  },
+  "profile": {
+    "_comment": "Top profile block. Use paths like assets/profile.jpg for local files, or full https URLs.",
+    "name": "Abhishek V. Karve",
+    "subtitle": "",
+    "email": "akarve[at]stanford.edu",
+    "photo": "images/profile.jpg",
+    "photoAlt": "Abhishek Karve",
+    "links": [
+      {
+        "_comment": "Repeat this object for CV, Scholar, GitHub, LinkedIn, or other profile links. Delete it if unused.",
+        "label": "CV",
+        "url": "files/CV.pdf",
+        "icon": "assets/icons/cv.svg"
+      },
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=fFuP4nkAAAAJ&hl=en",
+        "icon": "assets/icons/gs.svg"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/abhishek-karve-376028142/",
+        "icon": "assets/icons/linkedin.svg"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "_comment": "Simple text section, useful for an About section. Set visible to false to hide without deleting.",
+      "id": "about",
+      "visible": true,
+      "title": "About Me",
+      "intro": "Applied Physics PhD Student at Stanford. Interested in applications of Atomic Molecular and Optical (AMO) Physics to Quantum Information Science (QIS).",
+      "paragraphs": [
+        {
+          "parts": [
+            "I am a research assistant in the ",
+            {
+              "text": "Simon Lab",
+              "url": "https://simonlab.stanford.edu/"
+            },
+            " working on building the next generation quantum transducer using a Rydberg Rb85 atom ensemble in a hybrid millimeter-wave and optical cavity."
+          ]
+        }
+      ]
+    },
+    {
+      "_comment": "Education section. Use title for school name, meta for location, detail for degree/program, and note for dates.",
+      "id": "education",
+      "visible": true,
+      "title": "Education",
+      "intro": "",
+      "items": [
+        {
+          "_comment": "One row in a section. icon is optional; bullets and links can be empty arrays.",
+          "visible": true,
+          "icon": "assets/icons/SU.png",
+          "iconAlt": "Stanford Icon",
+          "title": "Stanford University",
+          "meta": "Stanford, CA",
+          "detail": "PhD in Applied Physics",
+          "note": "2024 - Present",
+          "bullets": [],
+          "links": [
+            {
+              "label": "",
+              "url": "",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "_comment": "One row in a section. icon is optional; bullets and links can be empty arrays.",
+          "visible": true,
+          "icon": "assets/icons/UIUC.png",
+          "iconAlt": "UIUC Icon",
+          "title": "University of Illinois at Urbana-Champaign",
+          "meta": "Urbana, IL",
+          "detail": "BS in Engineering Physics (Highest Honors), Minors in Computer Science and Mathematics",
+          "note": "2020 - 2024",
+          "bullets": [],
+          "links": [
+            {
+              "label": "",
+              "url": "",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_comment": "Awards and honors section. Use title for award name, meta for institution/organization, detail for context, and note for year.",
+      "id": "awards",
+      "visible": true,
+      "title": "Awards and Honors",
+      "intro": "",
+      "items": [
+        {
+          "_comment": "One award or honor row.",
+          "visible": true,
+          "icon": "assets/icons/award.png",
+          "iconAlt": "Award icon",
+          "title": "John A. Gardner Undergraduate Research Award",
+          "meta": "University of Illinois at Urbana-Champaign",
+          "detail": "2023",
+          "note": "",
+          "bullets": [],
+          "links": []
+        }
+      ]
+    },
+    {
+      "_comment": "Research experience section. Use title for lab/group/company, meta for institution/location, detail for role, note for dates, and bullets for project details.",
+      "id": "research-experience",
+      "visible": true,
+      "title": "Research Experience",
+      "intro": "",
+      "items": [
+        {
+          "_comment": "One research experience row.",
+          "visible": true,
+          "icon": "assets/icons/SU.png",
+          "iconAlt": "Stanford icon",
+          "title": "Simon Lab",
+          "titleLinks": [
+            {
+              "label": "link",
+              "url": "https://simonlab.stanford.edu/",
+              "icon": ""
+            }
+          ],
+          "meta": "Stanford University",
+          "detail": "Research Assistant",
+          "note": "",
+          "bullets": [
+            "Building a next-generation quantum transducer using a Rydberg Rb85 atom ensemble in a hybrid millimeter-wave and optical cavity."
+          ],
+          "links": []
+        },
+        {
+          "_comment": "One research experience row.",
+          "visible": true,
+          "icon": "assets/icons/UIUC.png",
+          "iconAlt": "UIUC icon",
+          "title": "Covey Lab",
+          "titleLinks": [
+            {
+              "label": "link",
+              "url": "https://sites.google.com/view/coveylab/home",
+              "icon": ""
+            }
+          ],
+          "meta": "University of Illinois at Urbana-Champaign",
+          "detail": "Undergraduate Researcher",
+          "note": "",
+          "bullets": [
+            "Designed the vacuum chamber assembly for a new quantum computing experiment with modular transportable atom arrays.",
+            "Implemented an AOM-based setup for focusing a beam through the AOM to achieve high switching speeds.",
+            "Constructed a multi-level system simulation to look at qubit dynamics under Rydberg pulses.",
+            "Built printed circuit boards to isolate digital and analog signals for experiment control for a new Ytterbium QIS experiment."
+          ],
+          "links": []
+        }
+      ]
+    },
+    {
+      "_comment": "Publication-style section. Use publications for larger rows with a preview image and centered citation text.",
+      "id": "publications",
+      "visible": true,
+      "title": "Publications",
+      "intro": {
+        "parts": [
+          "For an up-to-date list, see my ",
+          {
+            "text": "Google Scholar",
+            "url": "https://scholar.google.com/citations?user=fFuP4nkAAAAJ&hl=en"
+          },
+          "."
+        ]
+      },
+      "publications": [
+        {
+          "_comment": "One publication row. authors is an array so you can keep names easy to edit. links can include Paper, arXiv, Press, Code, or Video.",
+          "visible": true,
+          "image": "images/RIPA.jpg",
+          "imageAlt": "",
+          "title": "A 10 Megahertz Spatial Light Modulator",
+          "authors": ["Xin Wei", "Zeyang Li", "Abhishek V. Karve", "Adam L. Shaw", "David I. Schuster", "Jonathan Simon"],
+          "venue": "arXiv:2601.08906 (2026)",
+          "links": [
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2601.08906",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "_comment": "One publication row. authors is an array so you can keep names easy to edit. links can include Paper, arXiv, Press, Code, or Video.",
+          "visible": true,
+          "image": "images/filter2026.jpeg",
+          "imageAlt": "Second-Order Filter",
+          "title": "A second-order optical Butterworth Fabry–Pérot filter",
+          "authors": ["Zeyang Li", "Abhishek V. Karve", "Xin Wei", "Jonathan Simon"],
+          "venue": "Review of Scientific Instruments 97, 023103 (2026)",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://pubs.aip.org/aip/rsi/article/97/2/023103/3379252",
+              "icon": ""
+            },
+            {
+              "label": "Arxiv",
+              "url": "https://arxiv.org/abs/2510.15032",
+              "icon": ""
+            }
+          ]
+        }, 
+        {
+          "_comment": "One publication row. authors is an array so you can keep names easy to edit. links can include Paper, arXiv, Press, Code, or Video.",
+          "visible": true,
+          "image": "images/ququart.png",
+          "imageAlt": "",
+          "title": "An architecture for two-qubit encoding in neutral ytterbium-171 atoms",
+          "authors": ["Zhubing Jia", "William Huie", "Lintao Li", "Won Kyu Calvin Sun", "Xiye Hu", "Aakash", "Healey Kogan", "Abhishek Karve", "Jong Yeon Lee", "Jacob P. Covey"],
+          "venue": "npj Quantum Information 10, 106 (2024)",
+          "links": [
+            {
+              "label": "Paper",
+              "url": "https://www.nature.com/articles/s41534-024-00898-7",
+              "icon": ""
+            },
+            {
+              "label": "arXiv",
+              "url": "https://arxiv.org/abs/2402.13134",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "_comment": "Optional small footer text. updated can be a date string such as 2026-07-15.",
+    "text": {
+      "parts": [
+        "© Abhishek Karve 2026, modified from a template from ",
+        {
+          "text": "Yilin Zhu",
+          "url": "https://yilinzhu.me/"
+        },
+        "."
+      ]
+    },
+    "updated": "15 July 2026"
+  }
+}
