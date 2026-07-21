@@ -28,6 +28,11 @@
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/abhishek-karve-376028142/",
         "icon": "assets/icons/linkedin.svg"
+      },
+      {
+        "label": "Github",
+        "url": "https://github.com/AVKGitHub1",
+        "icon": "assets/icons/GitHub_Invertocat_Black_Clearspace.png"
       }
     ]
   },
@@ -67,6 +72,24 @@
           "meta": "Stanford, CA",
           "detail": "PhD in Applied Physics",
           "note": "2024 - Present",
+          "bullets": [],
+          "links": [
+            {
+              "label": "",
+              "url": "",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "_comment": "One row in a section. icon is optional; bullets and links can be empty arrays.",
+          "visible": true,
+          "icon": "assets/icons/SU.png",
+          "iconAlt": "Stanford Icon",
+          "title": "Stanford University",
+          "meta": "Stanford, CA",
+          "detail": "Master of Science in Applied Physics",
+          "note": "2024 - 2026",
           "bullets": [],
           "links": [
             {
@@ -141,7 +164,17 @@
           "detail": "Research Assistant",
           "note": "",
           "bullets": [
-            "Building a next-generation quantum transducer using a Rydberg Rb85 atom ensemble in a hybrid millimeter-wave and optical cavity."
+            "Building a next-generation quantum transducer using a Rydberg Rb85 atom ensemble in a hybrid millimeter-wave and optical cavity.",
+            {
+                "parts": [
+                "Assisted the development of a novel 10 MHz Re-Imaging Phased Array Spatial Light Modulator ",
+                {
+                  "text": "(RIPA-SLM)",
+                  "url": "https://arxiv.org/abs/2601.08906"
+                },
+                " for high-speed optical control."
+              ]
+            }
           ],
           "links": []
         },
